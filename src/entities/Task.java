@@ -33,6 +33,6 @@ public class Task extends Lesson {
 
 	@Override
 	public Integer duration() {
-		return questionCount * 5;
+		return questionCount * 5 * 60;
 	}
 }
